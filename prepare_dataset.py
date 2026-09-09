@@ -118,11 +118,40 @@ def generate_dataset(num_samples: int, output_dir: Path, seed: int = 42):
     seen_md5s = set()
 
     categories = list(PRODUCT_TAXONOMY.keys())
-    print(f"Generating {num_samples} product samples across {len(categories)} categories...")
+    print(f"Generating {num_samples} product samples across {len(categories)} categories (Leak-Free Split Partitioning)...")
+
+    # PREVENT ML DATA LEAKAGE:
+    # Partition taxonomy product concepts disjointly across splits BEFORE generating samples.
+    # This guarantees that test set products, titles, and descriptions are never seen during training or validation.
+    split_taxonomy = {"train": {}, "val": {}, "test": {}}
+    for cat, items in PRODUCT_TAXONOMY.items():
+        n_items = len(items)
+        # Ensure at least 1 held-out product concept for val and test each
+        n_test = max(1, int(round(0.15 * n_items)))
+        n_val = max(1, int(round(0.15 * n_items)))
+        n_train = n_items - n_test - n_val
+        if n_train < 1:
+            n_train = 1
+            n_test = max(1, (n_items - 1) // 2)
+            n_val = n_items - n_train - n_test
+
+        split_taxonomy["train"][cat] = items[:n_train]
+        split_taxonomy["val"][cat] = items[n_train:n_train + n_val]
+        split_taxonomy["test"][cat] = items[n_train + n_val:]
+
+    num_test = max(1, int(0.10 * num_samples))
+    num_val = max(1, int(0.10 * num_samples))
+    num_train = num_samples - num_test - num_val
+
+    # Create target split plan
+    split_plan = (["test"] * num_test) + (["val"] * num_val) + (["train"] * num_train)
+    random.shuffle(split_plan)
 
     for i in range(num_samples):
+        target_split = split_plan[i]
         cat = categories[i % len(categories)]
-        prod_title, prod_meta, base_color = random.choice(PRODUCT_TAXONOMY[cat])
+        pool = split_taxonomy[target_split][cat]
+        prod_title, prod_meta, base_color = random.choice(pool)
 
         # Add minor variance to title/metadata to ensure dataset diversity
         item_variant_id = i + 1
@@ -151,21 +180,8 @@ def generate_dataset(num_samples: int, output_dir: Path, seed: int = 42):
             "metadata_text": f"{prod_title} - {prod_meta}",
             "category": cat,
             "md5": md5_hash,
-            "split": "" # set below
+            "split": target_split
         })
-
-    # Deterministic Train / Val / Test split (80% / 10% / 10%)
-    random.shuffle(manifest)
-    num_val = max(1, int(0.10 * num_samples))
-    num_test = max(1, int(0.10 * num_samples))
-
-    for idx, item in enumerate(manifest):
-        if idx < num_test:
-            item["split"] = "test"
-        elif idx < num_test + num_val:
-            item["split"] = "val"
-        else:
-            item["split"] = "train"
 
     # Sort manifest by image_id for consistency
     manifest.sort(key=lambda x: x["image_id"])

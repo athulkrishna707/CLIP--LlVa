@@ -2,7 +2,7 @@
   {
     "image_id": "PROD_00001",
     "id": "PROD_00001",
-    "image_path": "data/images/PROD_00001.jpg",
+    "image_path": "data/images/prod_00001.jpg",
     "title": "Neon Yellow Mesh Running Shoes",
     "description": "High-performance marathon running shoes crafted with breathable neon yellow mesh uppers and responsive white foam soles. Engineered for maximum airflow and cushioned impact absorption on long trail runs.",
     "metadata_text": "Neon Yellow Mesh Running Shoes - High-performance marathon running shoes crafted with breathable neon yellow mesh uppers and responsive white foam soles. Engineered for maximum airflow and cushioned impact absorption on long trail runs.",
@@ -13,7 +13,7 @@
   {
     "image_id": "PROD_00002",
     "id": "PROD_00002",
-    "image_path": "data/images/PROD_00002.jpg",
+    "image_path": "data/images/prod_00002.jpg",
     "title": "Retro Low-Top Canvas Sneakers",
     "description": "Classic low-top canvas sneakers featuring crisp white vulcanized rubber toes and black canvas side paneling. Designed with vintage contrast stitching and durable rubber tread soles for everyday street style.",
     "metadata_text": "Retro Low-Top Canvas Sneakers - Classic low-top canvas sneakers featuring crisp white vulcanized rubber toes and black canvas side paneling. Designed with vintage contrast stitching and durable rubber tread soles for everyday street style.",
@@ -24,7 +24,7 @@
   {
     "image_id": "PROD_00003",
     "id": "PROD_00003",
-    "image_path": "data/images/PROD_00003.jpg",
+    "image_path": "data/images/prod_00003.jpg",
     "title": "Dark Brown Leather Chelsea Boots",
     "description": "Hand-burnished dark brown genuine leather Chelsea ankle boots with elastic black side gussets and pull tabs. Built with Goodyear welted leather soles for timeless formality and weather durability.",
     "metadata_text": "Dark Brown Leather Chelsea Boots - Hand-burnished dark brown genuine leather Chelsea ankle boots with elastic black side gussets and pull tabs. Built with Goodyear welted leather soles for timeless formality and weather durability.",
@@ -35,7 +35,7 @@
   {
     "image_id": "PROD_00004",
     "id": "PROD_00004",
-    "image_path": "data/images/PROD_00004.jpg",
+    "image_path": "data/images/prod_00004.jpg",
     "title": "Tan Suede Penny Loafers",
     "description": "Refined tan suede slip-on loafers featuring a traditional penny strap across the vamp and soft leather linings. Finished with a flexible crepe rubber sole for casual elegance and lightweight comfort.",
     "metadata_text": "Tan Suede Penny Loafers - Refined tan suede slip-on loafers featuring a traditional penny strap across the vamp and soft leather linings. Finished with a flexible crepe rubber sole for casual elegance and lightweight comfort.",
@@ -46,7 +46,7 @@
   {
     "image_id": "PROD_00005",
     "id": "PROD_00005",
-    "image_path": "data/images/PROD_00005.jpg",
+    "image_path": "data/images/prod_00005.jpg",
     "title": "Tactical Olive Trail Runners",
     "description": "Rugged trail running shoes built with water-repellent olive green ripstop nylon and deep lug Vibram outsoles. Reinforced with synthetic toe caps and quick-lace systems for challenging outdoor terrain.",
     "metadata_text": "Tactical Olive Trail Runners - Rugged trail running shoes built with water-repellent olive green ripstop nylon and deep lug Vibram outsoles. Reinforced with synthetic toe caps and quick-lace systems for challenging outdoor terrain.",
@@ -57,7 +57,7 @@
   {
     "image_id": "PROD_00006",
     "id": "PROD_00006",
-    "image_path": "data/images/PROD_00006.jpg",
+    "image_path": "data/images/prod_00006.jpg",
     "title": "Vintage Black Graphic T-Shirt",
     "description": "Heavyweight faded black cotton t-shirt featuring a distressed vintage chest graphic and dropped shoulders. Cut in a relaxed boxy fit for authentic modern streetwear layering.",
     "metadata_text": "Vintage Black Graphic T-Shirt - Heavyweight faded black cotton t-shirt featuring a distressed vintage chest graphic and dropped shoulders. Cut in a relaxed boxy fit for authentic modern streetwear layering.",
@@ -68,7 +68,7 @@
   {
     "image_id": "PROD_00007",
     "id": "PROD_00007",
-    "image_path": "data/images/PROD_00007.jpg",
+    "image_path": "data/images/prod_00007.jpg",
     "title": "Cobalt Blue Fleece Pullover Hoodie",
     "description": "Cozy cobalt blue fleece hoodie tailored with a double-lined drawstring hood and spacious kangaroo pocket. Made from heavy organic cotton fleece for exceptional warmth and relaxed daily wear.",
     "metadata_text": "Cobalt Blue Fleece Pullover Hoodie - Cozy cobalt blue fleece hoodie tailored with a double-lined drawstring hood and spacious kangaroo pocket. Made from heavy organic cotton fleece for exceptional warmth and relaxed daily wear.",
@@ -79,7 +79,7 @@
   {
     "image_id": "PROD_00008",
     "id": "PROD_00008",
-    "image_path": "data/images/PROD_00008.jpg",
+    "image_path": "data/images/prod_00008.jpg",
     "title": "Burgundy Knitted Cotton Polo Shirt",
     "description": "Sophisticated deep burgundy knitted polo shirt styled with a ribbed collar and mother-of-pearl buttons. Crafted from breathable fine-gauge cotton knit for a tailored smart-casual silhouette.",
     "metadata_text": "Burgundy Knitted Cotton Polo Shirt - Sophisticated deep burgundy knitted polo shirt styled with a ribbed collar and mother-of-pearl buttons. Crafted from breathable fine-gauge cotton knit for a tailored smart-casual silhouette.",
@@ -90,7 +90,7 @@
   {
     "image_id": "PROD_00009",
     "id": "PROD_00009",
-    "image_path": "data/images/PROD_00009.jpg",
+    "image_path": "data/images/prod_00009.jpg",
     "title": "Washed Oversized White Heavyweight Tee",
     "description": "Clean white 260GSM combed cotton t-shirt featuring a tight crew neck collar and dropped sleeve seams. Pre-shrunk for a permanent structured drape and minimalist minimalist aesthetic.",
     "metadata_text": "Washed Oversized White Heavyweight Tee - Clean white 260GSM combed cotton t-shirt featuring a tight crew neck collar and dropped sleeve seams. Pre-shrunk for a permanent structured drape and minimalist minimalist aesthetic.",
@@ -101,7 +101,7 @@
   {
     "image_id": "PROD_00010",
     "id": "PROD_00010",
-    "image_path": "data/images/PROD_00010.jpg",
+    "image_path": "data/images/prod_00010.jpg",
     "title": "Medium-Wash Classic Denim Jacket",
     "description": "Iconic medium-wash indigo denim trucker jacket detailed with contrast yellow stitching and antiqued brass shank buttons. Features twin button-flap chest pockets and adjustable waist tabs.",
     "metadata_text": "Medium-Wash Classic Denim Jacket - Iconic medium-wash indigo denim trucker jacket detailed with contrast yellow stitching and antiqued brass shank buttons. Features twin button-flap chest pockets and adjustable waist tabs.",
@@ -112,7 +112,7 @@
   {
     "image_id": "PROD_00011",
     "id": "PROD_00011",
-    "image_path": "data/images/PROD_00011.jpg",
+    "image_path": "data/images/prod_00011.jpg",
     "title": "Matte Black Insulated Puffer Coat",
     "description": "Ultra-warm matte black down puffer jacket constructed with windproof nylon shell and ethical 700-fill power down insulation. Includes a high stand collar, fleece-lined zip pockets, and elastic cuffs.",
     "metadata_text": "Matte Black Insulated Puffer Coat - Ultra-warm matte black down puffer jacket constructed with windproof nylon shell and ethical 700-fill power down insulation. Includes a high stand collar, fleece-lined zip pockets, and elastic cuffs.",
@@ -123,7 +123,7 @@
   {
     "image_id": "PROD_00012",
     "id": "PROD_00012",
-    "image_path": "data/images/PROD_00012.jpg",
+    "image_path": "data/images/prod_00012.jpg",
     "title": "Camel Wool Blend Trench Coat",
     "description": "Tailored double-breasted camel wool trench coat styled with exaggerated notch lapels and an adjustable waist belt. Fully lined with satin fabric for elegant formal outer coverage.",
     "metadata_text": "Camel Wool Blend Trench Coat - Tailored double-breasted camel wool trench coat styled with exaggerated notch lapels and an adjustable waist belt. Fully lined with satin fabric for elegant formal outer coverage.",
@@ -134,7 +134,7 @@
   {
     "image_id": "PROD_00013",
     "id": "PROD_00013",
-    "image_path": "data/images/PROD_00013.jpg",
+    "image_path": "data/images/prod_00013.jpg",
     "title": "Washed Gray Straight-Leg Denim Jeans",
     "description": "Classic 5-pocket denim jeans in a faded charcoal gray wash with authentic whiskering details. Cut in a versatile straight-leg fit from rigid 14oz ring-spun cotton denim.",
     "metadata_text": "Washed Gray Straight-Leg Denim Jeans - Classic 5-pocket denim jeans in a faded charcoal gray wash with authentic whiskering details. Cut in a versatile straight-leg fit from rigid 14oz ring-spun cotton denim.",
@@ -145,7 +145,7 @@
   {
     "image_id": "PROD_00014",
     "id": "PROD_00014",
-    "image_path": "data/images/PROD_00014.jpg",
+    "image_path": "data/images/prod_00014.jpg",
     "title": "Khaki Tactical Multi-Pocket Cargo Pants",
     "description": "Durable khaki stretch cotton ripstop cargo pants featuring spacious flap utility pockets and articulated knee darts. Fitted with an elastic drawstring waistband and adjustable ankle cuffs.",
     "metadata_text": "Khaki Tactical Multi-Pocket Cargo Pants - Durable khaki stretch cotton ripstop cargo pants featuring spacious flap utility pockets and articulated knee darts. Fitted with an elastic drawstring waistband and adjustable ankle cuffs.",
@@ -156,7 +156,7 @@
   {
     "image_id": "PROD_00015",
     "id": "PROD_00015",
-    "image_path": "data/images/PROD_00015.jpg",
+    "image_path": "data/images/prod_00015.jpg",
     "title": "Athletic Black Performance Sweatpants",
     "description": "Streamlined obsidian black jogger sweatpants knit from moisture-wicking technical fleece with zipped side pockets. Designed with tapered leg ribs for flexible athletic training.",
     "metadata_text": "Athletic Black Performance Sweatpants - Streamlined obsidian black jogger sweatpants knit from moisture-wicking technical fleece with zipped side pockets. Designed with tapered leg ribs for flexible athletic training.",
@@ -167,7 +167,7 @@
   {
     "image_id": "PROD_00016",
     "id": "PROD_00016",
-    "image_path": "data/images/PROD_00016.jpg",
+    "image_path": "data/images/prod_00016.jpg",
     "title": "Waterproof Black Roll-Top Backpack",
     "description": "Minimalist matte black waterproof roll-top backpack engineered with TPU-coated nylon and sealed seam zippers. Features an internal padded 16-inch laptop sleeve and ergonomic mesh shoulder straps.",
     "metadata_text": "Waterproof Black Roll-Top Backpack - Minimalist matte black waterproof roll-top backpack engineered with TPU-coated nylon and sealed seam zippers. Features an internal padded 16-inch laptop sleeve and ergonomic mesh shoulder straps.",
@@ -178,7 +178,7 @@
   {
     "image_id": "PROD_00017",
     "id": "PROD_00017",
-    "image_path": "data/images/PROD_00017.jpg",
+    "image_path": "data/images/prod_00017.jpg",
     "title": "Forest Green Cotton Baseball Cap",
     "description": "Unstructured 6-panel baseball cap crafted from washed forest green cotton twill with an embroidered tonal eyelet pattern. Finished with an adjustable metal strap buckle at the back.",
     "metadata_text": "Forest Green Cotton Baseball Cap - Unstructured 6-panel baseball cap crafted from washed forest green cotton twill with an embroidered tonal eyelet pattern. Finished with an adjustable metal strap buckle at the back.",
@@ -189,7 +189,7 @@
   {
     "image_id": "PROD_00018",
     "id": "PROD_00018",
-    "image_path": "data/images/PROD_00018.jpg",
+    "image_path": "data/images/prod_00018.jpg",
     "title": "Gold Aviator Polarized Sunglasses",
     "description": "Timeless metal frame aviator sunglasses in polished gold with dark brown glare-reducing polarized lenses. Fitted with soft silicone nose pads and UV400 protective coatings.",
     "metadata_text": "Gold Aviator Polarized Sunglasses - Timeless metal frame aviator sunglasses in polished gold with dark brown glare-reducing polarized lenses. Fitted with soft silicone nose pads and UV400 protective coatings.",
@@ -200,7 +200,7 @@
   {
     "image_id": "PROD_00019",
     "id": "PROD_00019",
-    "image_path": "data/images/PROD_00019.jpg",
+    "image_path": "data/images/prod_00019.jpg",
     "title": "Bifold Cognac Leather Wallet",
     "description": "Compact cognac brown vegetable-tanned leather bifold wallet featuring 6 card slots and a bill compartment. Hand-stitched with waxed thread for lifetime durability and rich patina.",
     "metadata_text": "Bifold Cognac Leather Wallet - Compact cognac brown vegetable-tanned leather bifold wallet featuring 6 card slots and a bill compartment. Hand-stitched with waxed thread for lifetime durability and rich patina.",
@@ -211,7 +211,7 @@
   {
     "image_id": "PROD_00020",
     "id": "PROD_00020",
-    "image_path": "data/images/PROD_00020.jpg",
+    "image_path": "data/images/prod_00020.jpg",
     "title": "Matte Black Wireless Over-Ear Headphones",
     "description": "Premium matte black wireless Bluetooth headphones engineered with active noise cancellation and memory foam ear cushions. Delivers deep bass clarity and 40-hour battery life.",
     "metadata_text": "Matte Black Wireless Over-Ear Headphones - Premium matte black wireless Bluetooth headphones engineered with active noise cancellation and memory foam ear cushions. Delivers deep bass clarity and 40-hour battery life.",
@@ -222,7 +222,7 @@
   {
     "image_id": "PROD_00021",
     "id": "PROD_00021",
-    "image_path": "data/images/PROD_00021.jpg",
+    "image_path": "data/images/prod_00021.jpg",
     "title": "Rose Gold AMOLED Smartwatch",
     "description": "Sleek rose gold aluminum smartwatch featuring a vibrant touch AMOLED display and breathable silicone wristband. Tracks continuous heart rate, sleep metrics, and GPS workouts.",
     "metadata_text": "Rose Gold AMOLED Smartwatch - Sleek rose gold aluminum smartwatch featuring a vibrant touch AMOLED display and breathable silicone wristband. Tracks continuous heart rate, sleep metrics, and GPS workouts.",
@@ -233,7 +233,7 @@
   {
     "image_id": "PROD_00022",
     "id": "PROD_00022",
-    "image_path": "data/images/PROD_00022.jpg",
+    "image_path": "data/images/prod_00022.jpg",
     "title": "Stainless Steel Pump Espresso Machine",
     "description": "Commercial-grade brushed stainless steel pump espresso machine with a 15-bar Italian pressure pump and steam milk frothing wand. Designed for brewing rich cremas at home.",
     "metadata_text": "Stainless Steel Pump Espresso Machine - Commercial-grade brushed stainless steel pump espresso machine with a 15-bar Italian pressure pump and steam milk frothing wand. Designed for brewing rich cremas at home.",
@@ -244,7 +244,7 @@
   {
     "image_id": "PROD_00023",
     "id": "PROD_00023",
-    "image_path": "data/images/PROD_00023.jpg",
+    "image_path": "data/images/prod_00023.jpg",
     "title": "Crimson Red Cast Iron Dutch Oven",
     "description": "Heavy 5.5-quart enameled cast iron Dutch oven pot coated in glossy crimson red enamel with a stainless steel lid knob. Superior heat retention ideal for slow braising and bread baking.",
     "metadata_text": "Crimson Red Cast Iron Dutch Oven - Heavy 5.5-quart enameled cast iron Dutch oven pot coated in glossy crimson red enamel with a stainless steel lid knob. Superior heat retention ideal for slow braising and bread baking.",
@@ -255,7 +255,7 @@
   {
     "image_id": "PROD_00024",
     "id": "PROD_00024",
-    "image_path": "data/images/PROD_00024.jpg",
+    "image_path": "data/images/prod_00024.jpg",
     "title": "Sculptural Matte Beige Ceramic Vase",
     "description": "Handcrafted minimalist ceramic flower vase rendered in a textured matte beige glaze with curved geometric contours. Serves as a decorative tabletop centerpiece for dry floral arrangements.",
     "metadata_text": "Sculptural Matte Beige Ceramic Vase - Handcrafted minimalist ceramic flower vase rendered in a textured matte beige glaze with curved geometric contours. Serves as a decorative tabletop centerpiece for dry floral arrangements.",
@@ -266,7 +266,7 @@
   {
     "image_id": "PROD_00025",
     "id": "PROD_00025",
-    "image_path": "data/images/PROD_00025.jpg",
+    "image_path": "data/images/prod_00025.jpg",
     "title": "Organic Bamboo Juice-Groove Cutting Board",
     "description": "Thick end-grain organic bamboo chopping board designed with deep perimeter juice grooves and side handle cutouts. Naturally antibacterial surface gentle on kitchen knife edges.",
     "metadata_text": "Organic Bamboo Juice-Groove Cutting Board - Thick end-grain organic bamboo chopping board designed with deep perimeter juice grooves and side handle cutouts. Naturally antibacterial surface gentle on kitchen knife edges.",

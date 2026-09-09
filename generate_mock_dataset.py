@@ -410,7 +410,7 @@ def generate_mock_dataset(output_dir: Path):
 
     for idx, spec in enumerate(PRODUCT_DATASET_SPECS):
         img_id = spec["id"]
-        img_filename = f"{img_id}.jpg"
+        img_filename = f"{img_id.lower()}.jpg"
         img_path = images_dir / img_filename
 
         # Download real photo or fallback to rendering studio geometry

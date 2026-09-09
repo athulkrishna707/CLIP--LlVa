@@ -19,6 +19,7 @@ env/
 Thumbs.db
 
 # SQLite databases & temp logs
+*.db
 *.db-journal
 *.log
 
