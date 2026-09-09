@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SQLite databases & temp logs
+*.db-journal
+*.log
+
+# Checkpoints / weights (optional - uncomment if checkpoints are large)
+# checkpoints/
