@@ -1,0 +1,227 @@
+[
+  {
+    "vector_id": 0,
+    "image_id": "PROD_00001",
+    "image_path": "data/images/PROD_00001.jpg",
+    "title": "Neon Yellow Mesh Running Shoes",
+    "description": "High-performance marathon running shoes crafted with breathable neon yellow mesh uppers and responsive white foam soles. Engineered for maximum airflow and cushioned impact absorption on long trail runs.",
+    "llava_caption": "Detailed product view of 'Neon Yellow Mesh Running Shoes'. Stylish footwear featuring durable outer sole, reinforced stitching, padded ankle collar, and breathable comfort design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "footwear"
+  },
+  {
+    "vector_id": 1,
+    "image_id": "PROD_00002",
+    "image_path": "data/images/PROD_00002.jpg",
+    "title": "Retro Low-Top Canvas Sneakers",
+    "description": "Classic low-top canvas sneakers featuring crisp white vulcanized rubber toes and black canvas side paneling. Designed with vintage contrast stitching and durable rubber tread soles for everyday street style.",
+    "llava_caption": "Detailed product view of 'Retro Low-Top Canvas Sneakers'. Stylish footwear featuring durable outer sole, reinforced stitching, padded ankle collar, and breathable comfort design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "footwear"
+  },
+  {
+    "vector_id": 2,
+    "image_id": "PROD_00003",
+    "image_path": "data/images/PROD_00003.jpg",
+    "title": "Dark Brown Leather Chelsea Boots",
+    "description": "Hand-burnished dark brown genuine leather Chelsea ankle boots with elastic black side gussets and pull tabs. Built with Goodyear welted leather soles for timeless formality and weather durability.",
+    "llava_caption": "Detailed product view of 'Dark Brown Leather Chelsea Boots'. Stylish footwear featuring durable outer sole, reinforced stitching, padded ankle collar, and breathable comfort design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "footwear"
+  },
+  {
+    "vector_id": 3,
+    "image_id": "PROD_00004",
+    "image_path": "data/images/PROD_00004.jpg",
+    "title": "Tan Suede Penny Loafers",
+    "description": "Refined tan suede slip-on loafers featuring a traditional penny strap across the vamp and soft leather linings. Finished with a flexible crepe rubber sole for casual elegance and lightweight comfort.",
+    "llava_caption": "Detailed product view of 'Tan Suede Penny Loafers'. Stylish footwear featuring durable outer sole, reinforced stitching, padded ankle collar, and breathable comfort design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "footwear"
+  },
+  {
+    "vector_id": 4,
+    "image_id": "PROD_00005",
+    "image_path": "data/images/PROD_00005.jpg",
+    "title": "Tactical Olive Trail Runners",
+    "description": "Rugged trail running shoes built with water-repellent olive green ripstop nylon and deep lug Vibram outsoles. Reinforced with synthetic toe caps and quick-lace systems for challenging outdoor terrain.",
+    "llava_caption": "Detailed product view of 'Tactical Olive Trail Runners'. Stylish footwear featuring durable outer sole, reinforced stitching, padded ankle collar, and breathable comfort design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "footwear"
+  },
+  {
+    "vector_id": 5,
+    "image_id": "PROD_00006",
+    "image_path": "data/images/PROD_00006.jpg",
+    "title": "Vintage Black Graphic T-Shirt",
+    "description": "Heavyweight faded black cotton t-shirt featuring a distressed vintage chest graphic and dropped shoulders. Cut in a relaxed boxy fit for authentic modern streetwear layering.",
+    "llava_caption": "Detailed product view of 'Vintage Black Graphic T-Shirt'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "tops"
+  },
+  {
+    "vector_id": 6,
+    "image_id": "PROD_00007",
+    "image_path": "data/images/PROD_00007.jpg",
+    "title": "Cobalt Blue Fleece Pullover Hoodie",
+    "description": "Cozy cobalt blue fleece hoodie tailored with a double-lined drawstring hood and spacious kangaroo pocket. Made from heavy organic cotton fleece for exceptional warmth and relaxed daily wear.",
+    "llava_caption": "Detailed product view of 'Cobalt Blue Fleece Pullover Hoodie'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "tops"
+  },
+  {
+    "vector_id": 7,
+    "image_id": "PROD_00008",
+    "image_path": "data/images/PROD_00008.jpg",
+    "title": "Burgundy Knitted Cotton Polo Shirt",
+    "description": "Sophisticated deep burgundy knitted polo shirt styled with a ribbed collar and mother-of-pearl buttons. Crafted from breathable fine-gauge cotton knit for a tailored smart-casual silhouette.",
+    "llava_caption": "Detailed product view of 'Burgundy Knitted Cotton Polo Shirt'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "tops"
+  },
+  {
+    "vector_id": 8,
+    "image_id": "PROD_00009",
+    "image_path": "data/images/PROD_00009.jpg",
+    "title": "Washed Oversized White Heavyweight Tee",
+    "description": "Clean white 260GSM combed cotton t-shirt featuring a tight crew neck collar and dropped sleeve seams. Pre-shrunk for a permanent structured drape and minimalist minimalist aesthetic.",
+    "llava_caption": "Detailed product view of 'Washed Oversized White Heavyweight Tee'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "tops"
+  },
+  {
+    "vector_id": 9,
+    "image_id": "PROD_00010",
+    "image_path": "data/images/PROD_00010.jpg",
+    "title": "Medium-Wash Classic Denim Jacket",
+    "description": "Iconic medium-wash indigo denim trucker jacket detailed with contrast yellow stitching and antiqued brass shank buttons. Features twin button-flap chest pockets and adjustable waist tabs.",
+    "llava_caption": "Detailed product view of 'Medium-Wash Classic Denim Jacket'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "outerwear"
+  },
+  {
+    "vector_id": 10,
+    "image_id": "PROD_00011",
+    "image_path": "data/images/PROD_00011.jpg",
+    "title": "Matte Black Insulated Puffer Coat",
+    "description": "Ultra-warm matte black down puffer jacket constructed with windproof nylon shell and ethical 700-fill power down insulation. Includes a high stand collar, fleece-lined zip pockets, and elastic cuffs.",
+    "llava_caption": "Detailed product view of 'Matte Black Insulated Puffer Coat'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "outerwear"
+  },
+  {
+    "vector_id": 11,
+    "image_id": "PROD_00012",
+    "image_path": "data/images/PROD_00012.jpg",
+    "title": "Camel Wool Blend Trench Coat",
+    "description": "Tailored double-breasted camel wool trench coat styled with exaggerated notch lapels and an adjustable waist belt. Fully lined with satin fabric for elegant formal outer coverage.",
+    "llava_caption": "Detailed product view of 'Camel Wool Blend Trench Coat'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "outerwear"
+  },
+  {
+    "vector_id": 12,
+    "image_id": "PROD_00013",
+    "image_path": "data/images/PROD_00013.jpg",
+    "title": "Washed Gray Straight-Leg Denim Jeans",
+    "description": "Classic 5-pocket denim jeans in a faded charcoal gray wash with authentic whiskering details. Cut in a versatile straight-leg fit from rigid 14oz ring-spun cotton denim.",
+    "llava_caption": "Detailed product view of 'Washed Gray Straight-Leg Denim Jeans'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "bottoms"
+  },
+  {
+    "vector_id": 13,
+    "image_id": "PROD_00014",
+    "image_path": "data/images/PROD_00014.jpg",
+    "title": "Khaki Tactical Multi-Pocket Cargo Pants",
+    "description": "Durable khaki stretch cotton ripstop cargo pants featuring spacious flap utility pockets and articulated knee darts. Fitted with an elastic drawstring waistband and adjustable ankle cuffs.",
+    "llava_caption": "Detailed product view of 'Khaki Tactical Multi-Pocket Cargo Pants'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "bottoms"
+  },
+  {
+    "vector_id": 14,
+    "image_id": "PROD_00015",
+    "image_path": "data/images/PROD_00015.jpg",
+    "title": "Athletic Black Performance Sweatpants",
+    "description": "Streamlined obsidian black jogger sweatpants knit from moisture-wicking technical fleece with zipped side pockets. Designed with tapered leg ribs for flexible athletic training.",
+    "llava_caption": "Detailed product view of 'Athletic Black Performance Sweatpants'. A high quality commercial product image on a clean background. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "bottoms"
+  },
+  {
+    "vector_id": 15,
+    "image_id": "PROD_00016",
+    "image_path": "data/images/PROD_00016.jpg",
+    "title": "Waterproof Black Roll-Top Backpack",
+    "description": "Minimalist matte black waterproof roll-top backpack engineered with TPU-coated nylon and sealed seam zippers. Features an internal padded 16-inch laptop sleeve and ergonomic mesh shoulder straps.",
+    "llava_caption": "Detailed product view of 'Waterproof Black Roll-Top Backpack'. Elegant accessory crafted with fine detail, polished metallic hardware, durable craftsmanship, and functional design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "accessories"
+  },
+  {
+    "vector_id": 16,
+    "image_id": "PROD_00017",
+    "image_path": "data/images/PROD_00017.jpg",
+    "title": "Forest Green Cotton Baseball Cap",
+    "description": "Unstructured 6-panel baseball cap crafted from washed forest green cotton twill with an embroidered tonal eyelet pattern. Finished with an adjustable metal strap buckle at the back.",
+    "llava_caption": "Detailed product view of 'Forest Green Cotton Baseball Cap'. Elegant accessory crafted with fine detail, polished metallic hardware, durable craftsmanship, and functional design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "accessories"
+  },
+  {
+    "vector_id": 17,
+    "image_id": "PROD_00018",
+    "image_path": "data/images/PROD_00018.jpg",
+    "title": "Gold Aviator Polarized Sunglasses",
+    "description": "Timeless metal frame aviator sunglasses in polished gold with dark brown glare-reducing polarized lenses. Fitted with soft silicone nose pads and UV400 protective coatings.",
+    "llava_caption": "Detailed product view of 'Gold Aviator Polarized Sunglasses'. Elegant accessory crafted with fine detail, polished metallic hardware, durable craftsmanship, and functional design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "accessories"
+  },
+  {
+    "vector_id": 18,
+    "image_id": "PROD_00019",
+    "image_path": "data/images/PROD_00019.jpg",
+    "title": "Bifold Cognac Leather Wallet",
+    "description": "Compact cognac brown vegetable-tanned leather bifold wallet featuring 6 card slots and a bill compartment. Hand-stitched with waxed thread for lifetime durability and rich patina.",
+    "llava_caption": "Detailed product view of 'Bifold Cognac Leather Wallet'. Elegant accessory crafted with fine detail, polished metallic hardware, durable craftsmanship, and functional design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "accessories"
+  },
+  {
+    "vector_id": 19,
+    "image_id": "PROD_00020",
+    "image_path": "data/images/PROD_00020.jpg",
+    "title": "Matte Black Wireless Over-Ear Headphones",
+    "description": "Premium matte black wireless Bluetooth headphones engineered with active noise cancellation and memory foam ear cushions. Delivers deep bass clarity and 40-hour battery life.",
+    "llava_caption": "Detailed product view of 'Matte Black Wireless Over-Ear Headphones'. Elegant accessory crafted with fine detail, polished metallic hardware, durable craftsmanship, and functional design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "accessories"
+  },
+  {
+    "vector_id": 20,
+    "image_id": "PROD_00021",
+    "image_path": "data/images/PROD_00021.jpg",
+    "title": "Rose Gold AMOLED Smartwatch",
+    "description": "Sleek rose gold aluminum smartwatch featuring a vibrant touch AMOLED display and breathable silicone wristband. Tracks continuous heart rate, sleep metrics, and GPS workouts.",
+    "llava_caption": "Detailed product view of 'Rose Gold AMOLED Smartwatch'. Elegant accessory crafted with fine detail, polished metallic hardware, durable craftsmanship, and functional design. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "accessories"
+  },
+  {
+    "vector_id": 21,
+    "image_id": "PROD_00022",
+    "image_path": "data/images/PROD_00022.jpg",
+    "title": "Stainless Steel Pump Espresso Machine",
+    "description": "Commercial-grade brushed stainless steel pump espresso machine with a 15-bar Italian pressure pump and steam milk frothing wand. Designed for brewing rich cremas at home.",
+    "llava_caption": "Detailed product view of 'Stainless Steel Pump Espresso Machine'. Contemporary home & kitchen item designed with clean geometric contours, durable finish, and functional aesthetic appeal. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "home_kitchen"
+  },
+  {
+    "vector_id": 22,
+    "image_id": "PROD_00023",
+    "image_path": "data/images/PROD_00023.jpg",
+    "title": "Crimson Red Cast Iron Dutch Oven",
+    "description": "Heavy 5.5-quart enameled cast iron Dutch oven pot coated in glossy crimson red enamel with a stainless steel lid knob. Superior heat retention ideal for slow braising and bread baking.",
+    "llava_caption": "Detailed product view of 'Crimson Red Cast Iron Dutch Oven'. Contemporary home & kitchen item designed with clean geometric contours, durable finish, and functional aesthetic appeal. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "home_kitchen"
+  },
+  {
+    "vector_id": 23,
+    "image_id": "PROD_00024",
+    "image_path": "data/images/PROD_00024.jpg",
+    "title": "Sculptural Matte Beige Ceramic Vase",
+    "description": "Handcrafted minimalist ceramic flower vase rendered in a textured matte beige glaze with curved geometric contours. Serves as a decorative tabletop centerpiece for dry floral arrangements.",
+    "llava_caption": "Detailed product view of 'Sculptural Matte Beige Ceramic Vase'. Contemporary home & kitchen item designed with clean geometric contours, durable finish, and functional aesthetic appeal. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "home_kitchen"
+  },
+  {
+    "vector_id": 24,
+    "image_id": "PROD_00025",
+    "image_path": "data/images/PROD_00025.jpg",
+    "title": "Organic Bamboo Juice-Groove Cutting Board",
+    "description": "Thick end-grain organic bamboo chopping board designed with deep perimeter juice grooves and side handle cutouts. Naturally antibacterial surface gentle on kitchen knife edges.",
+    "llava_caption": "Detailed product view of 'Organic Bamboo Juice-Groove Cutting Board'. Contemporary home & kitchen item designed with clean geometric contours, durable finish, and functional aesthetic appeal. Highlighted in vibrant lighting with clear visual detail.",
+    "category": "home_kitchen"
+  }
+]

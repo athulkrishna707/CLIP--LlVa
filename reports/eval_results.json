@@ -1,0 +1,30 @@
+{
+  "evaluation_summary": {
+    "dataset_total_size": 1000,
+    "eval_split": "test",
+    "eval_split_size": 100,
+    "query_set_size": 100,
+    "baseline_model": "openai/clip-vit-base-patch32",
+    "finetuned_model_path": "checkpoints\\best_model"
+  },
+  "retrieval_accuracy": {
+    "baseline_zero_shot": {
+      "top1_acc_percent": 9.0,
+      "top5_acc_percent": 29.0,
+      "top1_correct_count": 9,
+      "top5_correct_count": 29
+    },
+    "finetuned_lora": {
+      "top1_acc_percent": 31.0,
+      "top5_acc_percent": 94.0,
+      "top1_correct_count": 31,
+      "top5_correct_count": 94
+    },
+    "performance_delta": {
+      "top1_absolute_diff_percent": 22.0,
+      "top5_absolute_diff_percent": 65.0,
+      "top1_relative_gain_percent": 244.44,
+      "top5_relative_gain_percent": 224.14
+    }
+  }
+}
