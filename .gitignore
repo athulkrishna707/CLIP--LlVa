@@ -1,27 +1,119 @@
-# Byte-compiled / optimized / DLL files
+# ==============================================================================
+# Git Ignore for Multi-Modal CLIP + LLaVA Project
+# ==============================================================================
+
+# --- Python & Bytecode ---
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Pytest & test caches
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Virtual environments
+# --- Virtual Environments ---
 .venv/
 venv/
 ENV/
 env/
+env.bak/
+venv.bak/
 
-# OS generated files
-.DS_Store
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.cert
+secrets.json
+
+# --- Testing, Coverage & Quality ---
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.tox/
+.nox/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --- Operating System Files ---
+# Windows
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
 
-# SQLite databases & temp logs
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.fuse_hidden*
+.directory
+
+# --- Databases, Logs & Runtime Telemetry ---
 *.db
+*.sqlite
+*.sqlite3
 *.db-journal
+*.db-wal
 *.log
+logs/
 
-# Checkpoints / weights (optional - uncomment if checkpoints are large)
-# checkpoints/
+# --- ML Training, Experiment Tracking & Caching ---
+wandb/
+mlruns/
+runs/
+lightning_logs/
+.neptune/
+*.tfevents.*
+.cache/
+hf_cache/
+
+# --- Intermediate Model Checkpoints ---
+# Ignores step-by-step training checkpoints while keeping best_model if tracked
+checkpoints/**/checkpoint-*
+checkpoints/**/step-*
