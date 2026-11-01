@@ -3,7 +3,10 @@ import hashlib
 import json
 import random
 from pathlib import Path
+from typing import Optional
 from PIL import Image, ImageDraw, ImageFont
+
+from database import init_products_db, fetch_all_products, get_products_count
 
 PRODUCT_TAXONOMY = {
     "electronics": [
@@ -108,6 +111,91 @@ def render_product_image(image_path: Path, title: str, category: str, base_color
     image.save(image_path, "JPEG", quality=92)
 
 
+def prepare_dataset_from_db(output_dir: Path, db_path: Optional[Path] = None, seed: int = 42) -> Path:
+    """Prepares dataset manifest directly from a relational SQL database."""
+    random.seed(seed)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    images_dir = output_dir / "images"
+    images_dir.mkdir(parents=True, exist_ok=True)
+
+    db_path = init_products_db(db_path)
+    products = fetch_all_products(db_path)
+
+    if not products:
+        print(f"No products found in database at {db_path}.")
+        return None
+
+    print(f"Loading {len(products)} product records from database '{db_path}'...")
+    manifest = []
+    seen_md5s = set()
+
+    for prod in products:
+        prod_id = prod["id"]
+        title = prod["title"]
+        description = prod.get("description") or title
+        category = prod.get("category") or "general"
+        split = prod.get("split") or "train"
+        image_path_str = prod.get("image_path")
+
+        # Resolve image file
+        resolved_img_path = None
+        if image_path_str:
+            p = Path(image_path_str)
+            if p.is_file():
+                resolved_img_path = p
+            elif (output_dir.parent / p).is_file():
+                resolved_img_path = output_dir.parent / p
+            elif (images_dir / p.name).is_file():
+                resolved_img_path = images_dir / p.name
+
+        # If image not found, generate high-quality placeholder image
+        if not resolved_img_path or not resolved_img_path.is_file():
+            clean_id = prod_id.lower().replace("-", "_")
+            resolved_img_path = images_dir / f"{clean_id}.jpg"
+            base_color = (random.randint(40, 200), random.randint(40, 200), random.randint(40, 200))
+            render_product_image(resolved_img_path, title, category, base_color, hash(prod_id) % 100)
+
+        # Compute MD5
+        with open(resolved_img_path, "rb") as f:
+            md5_hash = hashlib.md5(f.read()).hexdigest()
+        seen_md5s.add(md5_hash)
+
+        # Calculate relative path
+        try:
+            rel_path = str(resolved_img_path.relative_to(output_dir.parent)).replace("\\", "/")
+        except ValueError:
+            rel_path = str(resolved_img_path).replace("\\", "/")
+
+        manifest.append({
+            "image_id": prod_id,
+            "id": prod_id,
+            "image_path": rel_path,
+            "title": title,
+            "description": description,
+            "metadata_text": f"{title} - {description}",
+            "category": category,
+            "md5": md5_hash,
+            "split": split
+        })
+
+    # Sort manifest for consistency
+    manifest.sort(key=lambda x: x["image_id"])
+
+    manifest_path = output_dir / "manifest.json"
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2)
+
+    split_counts = {
+        "train": sum(1 for x in manifest if x["split"] == "train"),
+        "val": sum(1 for x in manifest if x["split"] == "val"),
+        "test": sum(1 for x in manifest if x["split"] == "test"),
+    }
+    print(f"Database dataset preparation complete! Total samples: {len(manifest)}")
+    print(f"Splits -> Train: {split_counts['train']}, Val: {split_counts['val']}, Test: {split_counts['test']}")
+    print(f"Manifest written to: {manifest_path}")
+    return manifest_path
+
+
 def generate_dataset(num_samples: int, output_dir: Path, seed: int = 42):
     random.seed(seed)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -202,9 +290,20 @@ def generate_dataset(num_samples: int, output_dir: Path, seed: int = 42):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Prepare Product Image Retrieval Dataset")
-    parser.add_argument("--num_samples", type=int, default=5000, help="Total number of product samples to generate")
+    parser.add_argument("--db_path", type=str, default="data/products.db", help="Path to SQLite database")
+    parser.add_argument("--use_mock", action="store_true", help="Generate mock synthetic dataset instead of using database")
+    parser.add_argument("--num_samples", type=int, default=5000, help="Total number of product samples to generate if using mock")
     parser.add_argument("--output_dir", type=str, default="data", help="Output directory path")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
     args = parser.parse_args()
 
-    generate_dataset(num_samples=args.num_samples, output_dir=Path(args.output_dir), seed=args.seed)
+    db_file = Path(args.db_path)
+    output_dir = Path(args.output_dir)
+
+    if not args.use_mock and db_file.exists():
+        print(f"Using database mode from '{db_file}'...")
+        prepare_dataset_from_db(output_dir=output_dir, db_path=db_file, seed=args.seed)
+    else:
+        print("Using synthetic dataset generation mode...")
+        generate_dataset(num_samples=args.num_samples, output_dir=output_dir, seed=args.seed)
+
